@@ -125,9 +125,8 @@ jx标签可以相互嵌套使用
 后台代码如下：
 
 ```java
+
     private Resource templateResource;
-
-
     /**
      * 初始化文件
      */
@@ -179,5 +178,6 @@ jx标签可以相互嵌套使用
         }
         return "下载成功";
     }
-```
 
+```
+访问接口 localhost:8080/exportExcel ，即可导出数据并下载文件
