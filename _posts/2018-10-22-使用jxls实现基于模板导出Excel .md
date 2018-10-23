@@ -100,7 +100,7 @@ JXLS允许在模板中使用预定义的XML标签来控制XLS转换行为。
 
 3.1 jx:forEach标签
 
-<jx:forEach>标签的典型用法如下：
+    <jx:forEach>标签的典型用法如下：
 
 ```xml
 <jx:forEach  items="${departments}"  var="department" >
