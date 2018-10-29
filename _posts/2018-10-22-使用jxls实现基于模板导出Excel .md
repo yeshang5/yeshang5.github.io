@@ -257,11 +257,11 @@ jx:if标签可以基于某些条件来排除某些行或是某些列，如果你
 
  <jx:outline>标签可以将特定的行组成一组。例如：
 
-![](upload-images.jianshu.io/upload_images/2496148-3a5404fa266b0126.png)
+![](//upload-images.jianshu.io/upload_images/2496148-3a5404fa266b0126.png)
 
-![](upload-images.jianshu.io/upload_images/2496148-5dbedbce0617c5a6.png)
+![](//upload-images.jianshu.io/upload_images/2496148-5dbedbce0617c5a6.png)
 
-![](upload-images.jianshu.io/upload_images/2496148-a65180787013d185.png)
+![](//upload-images.jianshu.io/upload_images/2496148-a65180787013d185.png)
 
  <jx:outline>标记有一个可选的布尔类型的属性“detail”声明结果初始化的状态-它们应该展开显示还是折叠显示，默认值是false即分组的行会被折叠显示（隐藏）
 
