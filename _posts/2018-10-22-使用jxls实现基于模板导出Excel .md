@@ -119,8 +119,9 @@ jx标签可以相互嵌套使用
 
 实例：
 
-创建模板如图 
-    ！[](https://s1.ax1x.com/2018/10/22/iDBNaF.png)
+创建模板如图： 
+ 
+！[](https://s1.ax1x.com/2018/10/22/iDBNaF.png)
 
 *注意：
     若需要实现自动求和,可用如下表达式 $[SUM(F4)] ；
@@ -184,6 +185,7 @@ jx标签可以相互嵌套使用
 
 ```
 访问接口 localhost:8080/exportExcel ，即可导出数据并下载文件，导出结果如下：
-    ![]https://s1.ax1x.com/2018/10/29/igal4S.png
+ 
+![]https://s1.ax1x.com/2018/10/29/igal4S.png
 
-至此可实现
+至此可实现导出。
