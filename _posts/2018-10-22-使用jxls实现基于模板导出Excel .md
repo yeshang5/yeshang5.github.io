@@ -267,7 +267,7 @@ jx:if标签可以基于某些条件来排除某些行或是某些列，如果你
 
 3.4 jx:out标签
  
- <jx:out>标签的用法如下：
+用法如下：
 
 ![](//upload-images.jianshu.io/upload_images/2496148-29769afd4f8fb713.png)
 
