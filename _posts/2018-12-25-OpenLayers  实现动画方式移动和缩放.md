@@ -51,7 +51,9 @@ Openlayers 中文教程可参考 http://anzhihun.coding.me/ol3-primer/
 ![](https://g1.ax1x.com/2018/12/25/Fc612Q.gif)
 
 > 先放大再移动
+
 ![](https://s1.ax1x.com/2018/12/25/Fc6QPS.gif)
 
 > 同时移动和放大
+
 ![](https://s1.ax1x.com/2018/12/25/Fc6l8g.gif)
