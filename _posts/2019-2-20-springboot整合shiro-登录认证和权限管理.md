@@ -3,21 +3,9 @@ layout: post
 title: 'springboot整合shiro-登录认证和权限管理'
 date: 2019-2-20
 author: 白皓
-cover: '![](\assets\img\post-bg-rwd.jpg)'
+cover: 'https://s2.ax1x.com/2019/03/13/AFxyc9.jpg'
 tags: SpringBoot  Shiro
 category: springboot
----
-
----
-layout:     post                  
-title:      springboot整合shiro-登录认证和权限管理(1)        
-date:       2018-7-25             
-author:     Mr.W                   
-header-img: img/post-bg-rwd.jpg  
-category: springboot                     
-tags:                             
-- SpringBoot 
-- Shiro
 ---
   
 这篇文章我们来学习如何使用Spring Boot集成Apache Shiro。互联网的安全性尤为重要。在Java领域一般有Spring Security、Apache Shiro等安全框架，但是由于Spring Security过于庞大和复杂，大多数公司会选择Apache Shiro来使用，这篇文章会先介绍一下Apache Shiro，在结合Spring Boot给出使用案例。
