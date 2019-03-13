@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'springboot整合shiro-登录认证和权限管理'
+title: '程序员git commit时emoji指南'
 date: 2019-2-20
 author: 白皓
-cover: 'https://s2.ax1x.com/2019/03/13/AFxyc9.jpg'
-tags: SpringBoot  Shiro
-category: springboot
+cover: 'https://s2.ax1x.com/2019/03/13/AkZxeS.jpg'
+tags: markdown  emoji
+category: markdown
 ---
   
 > 执行 git commit 时使用 emoji 为本次提交打上一个 “标签”, 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。
