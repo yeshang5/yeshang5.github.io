@@ -7,7 +7,8 @@ cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557
 tags: markdown  emoji
 category: markdown
 ---
-  
+
+```javascript
 var self = this;
         this.map = map = self.map || window.map;
         var pointList=new Array();
@@ -49,3 +50,4 @@ var self = this;
         }
 
         this.map.addLayer(heatMapLayer);
+```
