@@ -1,440 +1,352 @@
-## jekyll-theme-H2O
 
-基于Jekyll的博客主题模板，简洁轻量。
+# 个人博客
 
-另外，还有此主题的[Ghost版本](https://github.com/eastpiger/ghost-theme-H2O) by [eastpiger](https://github.com/eastpiger)
+记录平时学习的点滴。
 
-### Preview
+博客地址：https://baihao520.com
 
-#### [在线预览 Live Demo →](http://yeshang5.github.io/)
+<div>
+<table>
+<thead>
+<tr>
+<th align="center">Ⅰ</th>
+<th align="center">Ⅱ</th>
+<th align="center">Ⅲ</th>
+<th align="center">Ⅳ</th>
+<th align="center">Ⅴ</th>
+<th align="center">Ⅵ</th>
+<th align="center">Ⅶ</th>
+<th align="center">Ⅷ</th>
+<th align="center">Ⅸ</th>
+<th align="center">Ⅹ</th>
+<th align="center">Ⅺ</th>
+<th align="center">Ⅻ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" style="white-space:nowrap"><p>算法</p><a href="#算法-pencil2">📰</a></td>
 
-![](screenshot/jekyll-theme-h2o-realhome.jpg)
+<td align="center" style="white-space:nowrap"><p>操作系统</P><a href="#操作系统-computer">📓</a></td>
 
-![](screenshot/jekyll-theme-h2o-realm.png)
+<td align="center" style="white-space:nowrap"><p>网络</p><a href="#网络-cloud">📒</a></td>
 
-如果你喜欢这个博客模板，请在右上角star一下，非常感谢～
+<td align="center" style="white-space:nowrap"><p>面向对象</p><a href="#面向对象-couple">📔</a></td>
 
-If you like this theme or using it, please give a ⭐️ for motivation ;)
+<td align="center" style="white-space:nowrap"><p>数据库</p><a href="#数据库-floppy_disk">📕</a></td>
 
+<td align="center" style="white-space:nowrap"><p>Java</p> <a href="#java-coffee">📗</a></td>
 
+<td align="center" style="white-space:nowrap"><p>分布式</p> <a href="#分布式-sweat_drops">📘</a></td>
 
-### Features 特性
+<td align="center" style="white-space:nowrap"><p>工具</p><a href="#工具-hammer">📙</a></td>
 
-#### CN
+<td align="center" style="white-space:nowrap"><p>支付</p><a href="#支付">📓</a></td>
 
-- 代码高亮
-- 夜间模式
-- Disqus评论系统
-- 粉蓝两种主题色
-- 头图个性化底纹
-- 响应式设计
-- 社交图标
-- SEO标题优化
-- 文章标签索引
-- 博客文章搜索
-- 复制文章内容自动添加版权
-
-#### EN
-
-- Code highlight
-- Night mode
-- Disqus Comment System
-- Theme color: Blue & Pink
-- Hero Patterns
-- Responsive design
-- SNS Icon
-- Title SEO
-- Tags system
-- Search
-- Copyright text on copy event
-
-### Usage 快速开始
-
-首先你需要安装Jekyll，请查看文档: [快速指南](http://jekyll.com.cn/docs/quickstart/)
-
-如果你已经安装了Jekyll，请检查版本是否为3.0.x，你可以使用 ```gem update jekyll``` 命令进行升级。
-
-> H2O主题基于Jekyll 3.2.1版本，不同版本之间可能存在部分差异，具体请参考[官方更新文档](https://jekyllrb.com/news/)
-
-点击右上角Fork按钮在你的Github上创建分支，或者```clone```到本地。
-
-``` git clone https://github.com/kaeyleo/jekyll-theme-H2O.git ```
-
-最后，在命令行输入 ```jekyll server``` 开启服务，就能在本地预览主题了。
-
-如果需要部署到线上环境，请参照配置文档的 **开始** 章节进行操作。
-
-### Document 配置文档
-
-#### CN
-
-- 开始
-	- [站点信息](#站点信息)
-	- [写一篇文章](#写一篇文章)
-- 组件
-	- [导航](#导航)
-	- [侧边栏](#侧边栏)
-	- [社交图标](#社交图标)
-	- [个人简介](#个人简介)
-	- [标签](#标签)
-	- [文章搜索](#文章搜索)
-	- [代码高亮](#代码高亮)
-	- [夜间模式](#夜间模式)
-- 个性化
-	- [主题皮肤](#主题皮肤)
-	- [头图底纹](#头图底纹)
-- 高级部分
-	- [自定义](#自定义)
-- 集成服务
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
-
-#### EN
-
-- Get Started
-	- [Site Settings](#站点信息)
-	- [Write Posts](#写一篇文章)
-- Components
-	- [Navigation Menu](#导航)
-	- [Sidebar](#侧边栏)
-	- [SNS Icons](#社交图标)
-	- [Personal Information](#个人简介)
-	- [Tags](#标签)
-	- [Search](#文章搜索)
-	- [Syntax Highlight](#代码高亮)
-	- [Night Mode](#夜间模式)
-- Style
-	- [Theme Color](#主题皮肤)
-	- [Hero Background Patterns](#头图底纹)
-- Advanced
-	- [Customization](#自定义)
-- Plugins
-	- [Disqus](#Disqus)
-	- [Share.js](#Share.js)
+<td align="center" style="white-space:nowrap"><p>编码实践</p><a href="#编码实践-speak_no_evil">📚</a></td>
 
 
-You can easily get started by modifying _config.yml
+<td align="center" style="white-space:nowrap"><p>框架系列</p>
+        <a href="#框架系列-Spring">📖</a>
+    </td>
+    
+<td align="center" style="white-space:nowrap"><p>前端系列</p>
+        <a href="#前端-Web">📋</a>
+    </td>
+</tr>
+</tbody>
+</table>
+</div>
 
-#### 站点信息
-
-你可以通用修改 `_config.yml` 文件来轻松的开始搭建自己的博客
-
-```
-# Site settings
-title: '白皓的博客' # 你的博客网站标题
-description: '很高兴能在这里与你分享我对技术和生活的思考。' # 站点描述
-keyword: '白皓, 白皓的独立博客, Java后端开发' # 网站关键词
-url: 'http://yeshang5.github.io' # 站点url
-baseurl: ''
-
-# Build settings
-paginate: 6 # 一页放几篇文章
-paginate_path: 'page:num'
-```
-
-其实大部分参数已经默认配置好了，你只需要通过文档了解它们，然后根据自己的需求去`_config.yml`文件里修改即可。
-
-#### 写一篇文章
-
-文章一般都放在`_posts`文件夹里，每篇文章的开头都需要设置一些头信息：
-
-```
 ---
-layout: post
-title: 'H2O theme for Jekyll'
-subtitle: '或许是最漂亮的Jekyll主题'
-date: 2017-04-18
-categories: 技术
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-postcover.jpg'
-tags: jekyll 前端开发 设计
+
+## 思维导图
+- [java学习](https://mp.processon.com/view/link/5d47efcbe4b051fcd68cf25d)
+
+## <a id="算法-pencil2" class="anchor"  aria-hidden="true" href="#算法-pencil2"></a> 📰 算法
+
+##### 一、 **[剑指 Offer ](http://wjwcloud.com/2016/06/06/剑指offer/)**
+
+##### 二、 **[算法](http://wjwcloud.com/2016/06/06/算法/)**
+
+- [快速排序算法](http://wjwcloud.com/2018/03/30/fast_sorting/)
+
+- [二叉树遍历](http://wjwcloud.com/2018/03/30/erca_tree/)
+
+- [时间复杂度和空间复杂度](http://wjwcloud.com/2018/03/30/complexity/)
+
+- [简单排序](http://wjwcloud.com/2018/03/30/Simple_sorting/)
+
+**应用**
+- [递归应用](http://wjwcloud.com/2018/03/30/Recursive/)
+- [树形数据--递归的实际应用](wjwcloud.com/算法/2018/12/08/recursive/)
+
 ---
-```
 
-#### 导航
-
-博客顶部的导航栏信息需要以下面的格式进行配置：
-
-```
-# Navigation links
-nav:
-  home: '/'
-  tags: '/tags.html'
-```
-
-导航链接需要写上完整的html文件名，它们都是放于根目录下的，如果自建文件夹，请务必在`exclude` 参数中增加自建文件夹的文件名:
-
-```
-# Build settings
-exclude: ['node_modules', 'dev', 'package.json', '自定义的文件夹名字']
-```
-
-这样做是为了在Jekyll运行时排除某些文件被复制到运行文件`_site`里去。
-
-#### 侧边栏
-
-![](screenshot/jekyll-theme-h2o-sideBar.png)
-
-侧边栏分为两个部分：【个人简介】和【推荐标签】。当屏幕宽度小于960px时，侧边栏会被隐藏。
-
-#### 社交图标
-
-使用阿里的图标管理平台Iconfont整理了一套常用的社交图标用于博客的个人简介上，包括微博、知乎、掘金、简书、Github等十三个网站，并且对鼠标悬停时的样式颜色进行了优化。
-
-配置格式如下：
-
-```
-# SNS settings 配置社交网站url
-sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
-```
-
-sns属性可选参数：
-
-社交网站 | 参数
---------|----
-微博 | `weibo`
-知乎 | `zhihu`
-推特 | `twitter`
-Instagram | `instagram`
-掘金 | `juejin`
-Github | `github`
-豆瓣 | `douban`
-Facebook | `facebook`
-Dribble | `dribble`
-UI中国 | `uicn`
-简书 | `jianshu`
-Medium | `medium`
-领英 | `linkedin`
-
-#### 个人简介
-
-首页侧边栏和文章页面底部都会显示你的个人简介
-
-```
-# Author 配置博主信息
-author: 'Jack'
-nickname: 'xx'
-bio: '程序员'
-avatar: 'assets/img/avatar.jpg'
-```
-
-#### 标签
-
-对侧边栏的标签模块进行相应配置：
-
-```
-# Tags
-recommend-tags: true
-recommend-condition-size: 12
-
-```
-
-Tags配置说明：
-
- 属性 | 参数 | 描述
------|-----|-------
-`recommend-tags` | `true`, `false` | 是否显示推荐标签
-`recommend-condition-size` | `12` 或其他数字 | 推荐标签个数限制
-
-#### 文章搜索
-
-![](screenshot/jekyll-theme-h2o-search.png)
-
-基于Jekyll服务器生成文章索引文件 `search.json` 为博客提供搜索服务。输入文章标题或与文章标签相关的关键字即可。
-
-搜索功能默认是开启的，以卡片的样式显示在侧边栏底部。如需关闭请将配置文件 `_config.yml` 中 `search ` 属性的值改为 `false` 。
-
-```
-# Search
-search: true
-```
-
-说明 | 参数
-----|-----
-开启搜索功能 | `true`
-关闭搜索功能 | `false`
-
-#### 代码高亮
-
-模板引入了[Prism.js](http://prismjs.com)，一款轻量、可扩展的代码语法高亮库。
-
-很多知名网站如[MDN](https://developer.mozilla.org/)、[css-tricks](https://css-tricks.com/)也在用它，就连 JavaScript 之父 [Brendan Eich](https://brendaneich.com/) 也在个人博客上使用。
-
-![代码高亮](http://on2171g4d.bkt.clouddn.com/jekyll-theme-h2o-highlight.png)
-
-遵循 [HTML5](https://www.w3.org/TR/html5/grouping-content.html#the-pre-element) 标准，Prism 使用语义化的 `<pre>` 元素和 `<code>` 元素来标记代码区块：
-
-```
-<pre><code class="language-css">p { color: red }</code></pre>
-```
-
-在Markdown中你可以这样写：
-
-
-	 ```css
-		p { color: red }
-	 ```
-
-支持语言：
-
-- HTML
-- CSS
-- Sass
-- JavaScript
-- CoffeeScript
-- Java
-- C-like
-- Swift
-- PHP
-- Go
-- Python
-
-#### 夜间模式
-
-晚11点至次日凌晨6点自动开启夜间模式。如果不需要，则将配置文件 `_config.yml` 中 `nightMode ` 属性的值改为 `false` 即可。
-
-```
-# Night mode
-nightMode: true
-```
-
-说明 | 参数
-----|-----
-开启夜间模式 | `true`
-关闭夜间模式 | `false`
-
-#### 主题皮肤
-
-![](screenshot/jekyll-theme-h2o-themecolor.jpg)
-
-支持两种主题颜色蓝色（默认）和粉色
-
-主要效果体现在首页博客封面、顶部导航栏的logo以及鼠标悬停时文字显示的颜色效果。
-
-```
-# theme color
-theme-color: 'default' # pink or default
-```
-
-颜色 | 参数
-----|-----
-蓝色 | `default`
-粉色 | `pink`
-
-如果你希望在博客封面显示图片，需要去index.html文件中的头信息中添加 `header-img` 配置：
-
-```
 ---
-layout: default
-home-title: Steven的博客
-description: 开发者，创造者
-header-img: assets/img/banner.jpg
+
+## <a id="操作系统-computer" class="anchor" aria-hidden="true" href="#操作系统-computer"></a> 📓 操作系统
+
 ---
-```
 
-#### 头图底纹
+---
 
-![](screenshot/jekyll-theme-h2o-heroPatterns.png)
+## <a id="网络-cloud" class="anchor" aria-hidden="true" href="#网络-cloud"></a> 📒 网络
 
-在没有图片的情况下单纯显示颜色会不会太无趣了点？于是想到了加入底纹元素，底纹素材是SVG格式的（保存在css样式里），加载比图片快很多。六种底纹（电路、食物、云海、钻石等等）供你选择，配置如下：
+##### 一、 **[Scoket](http://wjwcloud.com/2016/06/06/Socket/)**
 
-```
-# Hero background patterns
-postPatterns: 'circuitBoard'
-```
+- [Java Socket](http://wjwcloud.com/2018/07/21/Java_Socket/)
 
-`postPatterns` 属性参数配置：
 
-底纹描述  |  参数
-------|------
-电路 | `circuitBoard`
-圆环 | `overlappingCircles`
-吃货日常：啃打鸡 | `food`
-土豪必备：钻石| `glamorous`
-圈圈叉叉 | `ticTacToe`
-中国风：云海 | `seaOfClouds`
+---
 
-#### 自定义
+---
 
-主题开发使用的技术栈也比较简单：引入jQuery类库、使用Sass代替CSS编写样式，使用Gulp完成Sass的编译、CSS和JavaScript的代码合并压缩等任务。
+## <a id="面向对象-couple" class="anchor" aria-hidden="true" href="#面向对象-couple"></a> 📔 面向对象
 
-如果你喜欢折腾，想对模板的代码进行修改，需要使用命令 `npm install` 安装 `package.json` 中的依赖，然后 `gulp` 一下即可开始你的自定义之旅。
+##### 一、 **[设计模式](http://wjwcloud.com/2016/06/06/Java_Design/)**
 
-在了解H2O主题的目录结构之前，确保你对[Jekyll目录结构](http://jekyll.com.cn/docs/structure/)有所了解。
+> 23种设计模式
 
-```		
-	.
-	├── _config.yml # 配置文件
-	├── _includes # 页面组件方便重用
-	|   ├── footer.html # 页脚
-	|   └── head.html # html文档的头部内容
-	|   └── header.html # 顶部菜单栏
-	|   └── pageNav.html # 文章列表分页组件
-	├── _layouts # 布局模板
-	|   ├── default.html # 默认模板
-	|   └── post.html # 文章页面模板
-	├── _posts # 这里放文章
-	|   ├── 2017-05-03-elements-of-javascript-style.md # 命名格式：年-月-日-文章标题.md
-	|   └── 2007-02-21-life-on-mars.md
-	├── _site # Jekyll将源码处理后生成的站点文件，里面的内容可直接发布
-	├── assets # 存放用于线上环境的静态资源，如需修改css和js文件请到dev文件夹
-	|   ├── css # dev文件夹中sass编译后的样式文件
-	|   └── fonts # 字体文件
-	|   └── icons # 图标文件
-	|   └── img #  图片文件
-	|   └── js # dev文件夹中处理后的脚本文件
-	├── dev # 开发文件
-	|   ├── js # 存放脚本源码
-	|   └── sass # 样式源码
-	|       └── app.scss # 整合下面的所有样式文件
-	|       └── base.scss # 引入字体、Reset部分样式
-	|       └── common.scss # 模板的主要样式
-	|       └── helper.scss # 工具样式
-	|       └── layouts.scss # 响应式布局
-	└── gulpfile.js # 自动化任务脚本
-	└── index.html # 模板首页
-	└── tags.html # 标签页面
-	└── 404.html # 404页面
-	└── package.json # 管理项目的依赖项
-```
+  
+  - [设计模式](http://wjwcloud.com/2018/03/30/Design_pattern/)
+ 
+ **创建型**
 
-值得注意的是，css及js的源码都在 `dev` 文件夹中，每一次保存 gulp 都会对它们进行处理并保存到 `assets` 文件夹以供 `_site` 上线环境使用。
 
-#### Disqus
+ **行为型**
+ 
+ - [策略模式与避免臃肿的if-else](http://wjwcloud.com/2018/08/27/Strategy/)
+ 
+ 
+ **结构型**
 
-[Disqus](https://disqus.com/)是一个第三方社交评论插件，体验相当不错。
+##### 二、 **[面向对象思想](http://wjwcloud.com/2016/06/06/面向对象思想/)**
 
-模板默认开启Disqus评论插件，如需关闭请在 `_config.yml` 中配置参数 `true` (开启) 或者 `false` (关闭) :  
+> 继承、封装、多态
 
-在配置文件 `_config.yml` 中找到Disqus的相关配置，设置 `disqus` 参数为 `true` 打开评论功能，并且设置 `disqus_url`。
+---
 
-```
-# Comments
-disqus: true
-disqus_url: 'https://你的disqus账户名.disqus.com/embed.js'
-```
+---
 
-注：`disqus` 默认值为 `false`
+## <a id="数据库-floppy_disk" class="anchor" aria-hidden="true" href="#数据库-floppy_disk"></a>📕 数据库
 
-#### Share.js
+##### 一、 **[Mybatis](http://wjwcloud.com/2016/06/06/Mybatis/)**
 
-为了让文章更方便地分享，使用了第三方分享插件[Share.js](http://overtrue.me/share.js/)，支持一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
+ - [Mybatis批量更新操作](http://wjwcloud.com/2018/07/13/Mybatis_update_batch/)
+ 
 
-```
-# Share
-social-share: true # 开启或者关闭分享功能
-social-share-items: ['wechat', 'weibo', 'douban','twitter']
-```
+---
 
-### Contribution 贡献
+---
 
-Any types of contribution are welcome. Thanks.
 
-接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的 ```Pull Request```
+## <a id="java-coffee" class="anchor" aria-hidden="true" href="#java-coffee"></a> 📗 Java
 
-### License 许可证
+##### 一、 **Java基础**
 
-Jekyll-Theme-H2O is licensed under [MIT](https://github.com/kaeyleo/jekyll-theme-H2O/blob/master/LICENSE).
+> 一些基础知识以及常用的内容
+
+- [Java基础知识点](http://wjwcloud.com/2018/07/16/Java_base/)
+- [深入浅析Java中Static Class及静态内部类和非静态内部类的不同](http://wjwcloud.com/2018/03/30/Static_class/)
+- [Java程序的执行顺序](http://wjwcloud.com/2018/03/30/Java_procedure_order/)
+- [深入解析Java反射-基础篇](http://wjwcloud.com/2018/10/16/Java_Reflection-1/)
+
+**常用内容**
+
+- [反射机制--Map与JavaBean的相互转换](https://wjwcloud.com/2018/12/10/JavaBean_Map/)
+- [Java优化编程的37条法则（转）](http://wjwcloud.com/java/2018/08/09/Java_optimization/)
+- [字符串反转](http://wjwcloud.com/2018/03/13/StrReverse/)
+- [new 一个对象放在循环内部和外部的区别](http://wjwcloud.com/java/2018/08/09/Java_new_object/)
+- [对List操作出现的异常和问题](http://wjwcloud.com/java/2018/08/21/Java_List/)
+- [BeanUtils.copyProperties](http://wjwcloud.com/java/2018/08/21/copyProperties/)
+- [Java后端解析前端传入Json](http://wjwcloud.com/2018/07/16/Java_Json/)
+
+
+
+##### 二、 **Java容器**
+
+> ArrayList、Vector、CopyOnWriteArrayList、LinkedList、HashMap、ConcurrentHashMap、LinkedHashMap、WeekHashMap 分析。
+
+
+**常用内容**
+
+- [List的浅拷贝与深拷贝](http://wjwcloud.com/java/2018/10/08/list_clone/)
+
+##### 三、 **[Java并发](http://wjwcloud.com/2016/06/06/Java并发/)**
+
+> 线程使用方式、两种互斥同步方法、线程协作、JUC、线程安全、内存模型、锁优化。
+
+
+- [理解java内存模型（JMM）](http://wjwcloud.com/2018/02/02/JMM/)
+- [Java多线程](http://wjwcloud.com/2018/02/03/java_Thread/)
+- [线程优先级](http://wjwcloud.com/2018/07/22/Thread_Priority/)
+
+##### 四、 **[Java虚拟机](http://wjwcloud.com/2016/06/06/Java虚拟机/)**
+
+
+##### 五、 **[Java I/O](http://wjwcloud.com/2016/06/06/Java_IO/)**
+
+> NIO 的原理以及实例。
+
+- [File类](https://wjwcloud.com/java/2019/03/13/File/)
+
+##### 六、**[wtool工具](http://wjwcloud.com/java/2019/07/30/wtool/)**
+
+---
+
+---
+
+## <a id="分布式-sweat_drops" class="anchor" aria-hidden="true" href="#分布式-sweat_drops"></a> 📘 分布式
+
+---
+
+---
+
+## <a id="工具-hammer" class="anchor" aria-hidden="true" href="#工具-hammer"></a>📙 工具
+
+##### 一、 **[Git](http://wjwcloud.com/2016/06/06/Git/)**
+
+- [git仓库删除所有提交历史记录，成为一个干净的新仓库(转)](http://wjwcloud.com/2017/12/14/git_del-history/)
+- [git配置（Windows+Linux）](http://wjwcloud.com/2017/09/10/git_config-windows-linux/)
+- [使用 .gitignore 忽略 Git 仓库中的文件(转)](http://wjwcloud.com/2017/02/22/git_.gitignore/)
+- [Git 代码回滚(转)](http://wjwcloud.com/2017/02/16/git_reset/)
+- [Git指令整理(转)](http://wjwcloud.com/2017/02/15/git_code/)
+ 
+##### 二、Docker
+- [Docker环境的安装以及常用命令 centos7](http://wjwcloud.com/docker/2019/06/12/Docker%E7%8E%AF%E5%A2%83%E7%9A%84%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-centos7/)
+- [Docker私有仓库Registry](http://wjwcloud.com/docker/2019/06/12/Docker%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93Registry/)
+- [Docker-+jenkins+GitLab](http://wjwcloud.com/docker/2019/06/13/Docker-+jenkins+GitLab/)
+- [Docker+FastDFS](http://wjwcloud.com/docker/2019/06/13/Docker+FastDFS/)
+- [Docker中容器的备份、恢复和迁移](http://wjwcloud.com/docker/2019/06/14/Docker%E4%B8%AD%E5%AE%B9%E5%99%A8%E7%9A%84%E5%A4%87%E4%BB%BD-%E6%81%A2%E5%A4%8D%E5%92%8C%E8%BF%81%E7%A7%BB/)
+
+---
+
+---
+
+## <a id="编码实践-speak_no_evil" class="anchor" aria-hidden="true" href="#编码实践-speak_no_evil"></a>  📚 编码实践
+
+---
+
+---
+
+## <a id="框架系列-Spring" class="anchor" aria-hidden="true" href="#框架系列-Spring"></a>📖 框架系列
+
+##### 一、Spring
+
+- [Spring事务](https://wjwcloud.com/spring/2018/12/20/Spring-Transaction/)
+- [spring集成mina](http://wjwcloud.com/2018/04/08/spring_mina/)
+
+
+##### 二、 SpringBoot
+
+**快速入门**
+
+**Web开发**
+ - [Spring Boot中如何扩展XML请求和响应的支持](http://wjwcloud.com/springboot/2018/11/05/SpringBoot_XML/)
+ - [拦截器-HandlerInterceptorAdapter](http://wjwcloud.com/spring/2018/11/08/Spring_MVC_Filter/)
+ 
+**安全管理**
+
+ - [springboot整合shiro-登录认证和权限管理(1)](http://wjwcloud.com/springboot/2018/07/25/SpringBoot_Shiro/)
+
+**数据访问**
+
+- [SpringBoot-AOP处理数据过滤](https://wjwcloud.com/springboot/2019/03/01/SpringBoot_AOP_dataAuthority/)
+- [JdbcTemplate](http://wjwcloud.com/jdbctemplate/2019/07/31/JdbcTemplate/)
+
+
+**缓存支持**
+- [SpringBoot-Ehcache](http://wjwcloud.com/springboot/2018/11/06/SpringBoot_EhCache/)
+- [SpringBoot中Redis的使用](http://wjwcloud.com/springboot/2018/10/10/SpringBoot_Redis-1/)
+
+
+**日志管理**
+- [SpringBoot-AOP处理系统日志](http://wjwcloud.com/springboot/2018/11/06/SpringBoot_AOP_SysLog/)
+- [传统的ELK的部署与使用](http://wjwcloud.com/springboot/2019/08/23/%E4%BC%A0%E7%BB%9F%E7%9A%84ELK%E7%9A%84%E9%83%A8%E7%BD%B2%E4%B8%8E%E4%BD%BF%E7%94%A8/)
+
+**消息服务**
+- [SpringBoot集成RabbitMQ](http://wjwcloud.com/springboot/2018/10/22/SpringBoot_RabbitMQ/)
+- [SpringBoot整合Kafka实现消息队列](http://wjwcloud.com/springboot/2018/10/23/SpringBoot_Kafka/)
+
+**邮件**
+- [SpringBoot-邮件服务](http://wjwcloud.com/springboot/2018/10/17/SpringBoot_mail-1/)
+
+**监控管理**
+
+**其他功能**
+
+- [SpringBoot--Netty的配置使用](http://wjwcloud.com/springboot/2019/07/22/SpringBoot-Netty%E7%9A%84%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8/)
+- [SpringBoot整合FastDFS](http://wjwcloud.com/springboot/2019/07/31/SpringBoot%E6%95%B4%E5%90%88FastDFS/)
+ - [springboot跨域请求解决方案+前后端分离跨域问题其他解决方案](http://wjwcloud.com/springboot/2018/08/23/corss/)
+- [使用Docker部署SpringBoot](http://wjwcloud.com/springboot/2018/10/10/Docker1/)
+
+**SpringBoot使用Dubbo**
+
+
+##### 三、 SpringCloud
+**1、Dalston版本**
+
+**教程**
+- [Dalston-服务注册与发现+服务提供-Eureka-1](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务注册与发现+服务提供-Eureka-1/)
+- [Dalston-服务消费-2](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务消费-2/)
+- [Dalston-负载均衡工具包-Ribbon-3](http://wjwcloud.com/springcloud/2019/03/21/Dalston-负载均衡工具包-Ribbon-3/)
+- [Dalston-服务消费工具-Feign-4](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务消费工具-Feign-4/)
+- [Dalston-服务消费工具-Feign-上传文件-5](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务消费工具-Feign-上传文件-5/)
+- [Dalston-分布式配置中心-(Config)-6](http://wjwcloud.com/springcloud/2019/03/21/Dalston-分布式配置中心-(Config)-6/)
+- [Dalston--Hystricx断路器（Ribbon、Fegin）-7](http://wjwcloud.com/springcloud/2019/03/22/Dalston-Hystricx%E6%96%AD%E8%B7%AF%E5%99%A8-Ribbon-Fegin-7/)
+
+**2、Alibaba-Cloud**
+
+**教程**
+
+- [Nacos服务注册与发现](http://wjwcloud.com/springcloud/2019/04/29/Nacos%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0/)
+- [Nacos Config(配置中心)](http://wjwcloud.com/springcloud/2019/04/29/Nacos-Config(%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83)/)
+- [Alibaba-Cloud--Sentinel(限流)](http://wjwcloud.com/springcloud/2019/04/29/Alibaba-Cloud-Sentinel(%E9%99%90%E6%B5%81)/)
+- [Alibaba-Cloud--使用nacos存储Sentinel规则](http://wjwcloud.com/springcloud/2019/04/29/Alibaba-Cloud-使用nacos存储Sentinel规则/)
+
+---
+---
+## <a id="支付" class="anchor" aria-hidden="true" href="#支付"></a> 📙 支付
+
+- [支付宝支付-Java](http://wjwcloud.com/%E6%94%AF%E4%BB%98/2019/06/08/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%AF%E4%BB%98-Java/)
+- [微信支付-Java](http://wjwcloud.com/%E6%94%AF%E4%BB%98/2019/06/08/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98-Java/)
+- [js关闭当前支付完成页面](http://wjwcloud.com/%E6%94%AF%E4%BB%98/2019/06/08/js%E5%85%B3%E9%97%AD%E5%BD%93%E5%89%8D%E6%94%AF%E4%BB%98%E5%AE%8C%E6%88%90%E9%A1%B5%E9%9D%A2/)
+
+---
+---
+
+## <a id="前端-Web" class="anchor" aria-hidden="true" href="#前端-Web"></a> 📋 前端系列
+
+##### 一、 **[插件](http://wjwcloud.com/2016/06/06/插件/)**
+
+- [My97插件使用记录（未完...）](http://wjwcloud.com/web/2018/08/22/My97/)
+
+##### 二、 **[Flutter](http://wjwcloud.com/2016/06/06/Flutter/)**
+
+- [Win搭建Flutter开发环境--聊一聊搭建过程中的坑](http://wjwcloud.com/flutter/2018/07/31/Fultter_one/)
+- [Flutter Project创建](http://wjwcloud.com/flutter/2018/07/31/Flutter_two/)
+- [Flutter实战-1](http://wjwcloud.com/flutter/2018/12/01/Flutter_action_1/) 
+
+##### 三、 **[Vue.Js](http://wjwcloud.com/2016/06/06/Vue/)**
+
+ - [vueJS在windows本地下搭建环境和创建项目](http://wjwcloud.com/vuejs/2018/07/26/VueJS1/)
+
+---
+
+## <a id="essay" class="anchor" aria-hidden="true" href="#essay"></a> 📚 运维
+
+- [采用Nginx的HTTP的验证功能加密Elasticsearch](http://wjwcloud.com/%E8%BF%90%E7%BB%B4/2019/08/24/%E9%87%87%E7%94%A8Nginx%E7%9A%84HTTP%E7%9A%84%E9%AA%8C%E8%AF%81%E5%8A%9F%E8%83%BD%E5%8A%A0%E5%AF%86Elasticsearch/)
+
+---
+
+## <a id="essay" class="anchor" aria-hidden="true" href="#essay"></a> 📋 杂文
+
+- [大城市--积郁之城](http://wjwcloud.com/essay/2019/02/13/essay_dream/)
+
+---
+
+# 微信公众号：
+
+![](https://raw.githubusercontent.com/wjw0315/wjw0315.github.io/master/img/gzh.jpg)
+
