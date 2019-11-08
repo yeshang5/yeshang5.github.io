@@ -3,7 +3,7 @@ layout: post
 title: 'springboot整合shiro-登录认证和权限管理'
 date: 2019-2-20
 author: 白皓
-cover: 'https://s2.ax1x.com/2019/03/13/AFxyc9.jpg'
+cover: ''
 tags: SpringBoot  Shiro
 category: springboot
 ---

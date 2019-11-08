@@ -3,7 +3,7 @@ layout: post
 title: '使用openLayer实现热力图'
 date: 2019-3-22
 author: 白皓
-cover: 'https://s2.ax1x.com/2019/09/02/nCMlNj.jpg'
+cover: ''
 tags: markdown  emoji
 category: markdown
 ---

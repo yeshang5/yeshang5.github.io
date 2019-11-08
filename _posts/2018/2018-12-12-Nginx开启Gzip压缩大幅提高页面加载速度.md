@@ -3,7 +3,7 @@ layout: post
 title: 'Nginx开启Gzip压缩大幅提高页面加载速度'
 date: 2018-12-12
 author: 白皓
-cover: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544441420161&di=758e49da74d407a434759d9b6e0638ee&imgtype=0&src=http%3A%2F%2Fbpic.588ku.com%2Felement_origin_min_pic%2F00%2F92%2F75%2F3456f233aa55d2d.jpg'
+cover: ''
 tags: nginx 页面加载
 ---
 

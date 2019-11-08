@@ -3,7 +3,7 @@ layout: post
 title: 'OpenLayers  实现动画方式移动和缩放(OpenLayers View animate)'
 date: 2018-12-25
 author: 白皓
-cover: 'https://s2.ax1x.com/2019/09/02/nCQp2q.jpg'
+cover: ''
 tags: openlayers 地图 GIS
 ---
 

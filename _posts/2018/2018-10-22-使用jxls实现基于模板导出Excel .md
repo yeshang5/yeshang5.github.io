@@ -3,7 +3,7 @@ layout: post
 title: '使用jxls实现基于模板导出Excel'
 date: 2018-10-22
 author: 白皓
-cover: 'https://s1.ax1x.com/2018/10/22/iDB1vq.jpg'
+cover: ''
 tags: java excel poi jxls 导出
 ---
 

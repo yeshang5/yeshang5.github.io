@@ -3,7 +3,7 @@ layout: post
 title: '程序员git commit时emoji指南'
 date: 2019-2-20
 author: 白皓
-cover: 'https://s2.ax1x.com/2019/03/13/AkZxeS.jpg'
+cover: ''
 tags: markdown  emoji
 category: markdown
 ---
