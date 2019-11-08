@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: '白皓的博客'
 description: '昵称洛城东，前端开发/Java后端，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '白皓, 白皓的独立博客, 白皓的博客, 前端, 前端开发,Java后端, Unity3D,Python'
+keyword: '白皓, 白皓的独立博客, 白皓的博客, 前端, 前端开发,Java后端,全栈'
 url: 'http://yeshang5.github.io' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -9,7 +9,7 @@ baseurl: ''
 
 # Navigation links
 nav:
-  catalog: 'http://baihao520.com/2016/05/20/博客目录.html'
+  catalog: 'https://baihao520.com/2016/05/20/catalog'
   home: '/'
   tags: '/tags.html'
 
@@ -59,7 +59,7 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
   email: 'mailto:646066936@qq.com'
-  weibo: '//weibo.com/yeshanng5'
+  weibo: '//weibo.com/yeshang5'
   juejin: '//'
   instagram: '//'
   github: '//github.com/yeshang5'
@@ -84,7 +84,7 @@ RSS: false
 
 # Permalink
 # See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title
 
 # Plugins
 plugins: [jekyll-paginate]

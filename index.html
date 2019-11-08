@@ -18,7 +18,7 @@ description: 简单乐观爱创造
 <main class="g-container home-content">
     <div class="article-list">
         {% for post in paginator.posts %}
-            <article class="article-item">
+            <article class="article-item" style="border-bottom: 2px solid #ccb7b74f !important;box-shadow: none !important;">
                 {% if post.cover %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
