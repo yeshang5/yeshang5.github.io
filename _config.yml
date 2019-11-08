@@ -9,6 +9,7 @@ baseurl: ''
 
 # Navigation links
 nav:
+  catalog: 'http://baihao520.com/2016/05/20/博客目录.html'
   home: '/'
   tags: '/tags.html'
 
