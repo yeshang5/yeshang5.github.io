@@ -5,6 +5,18 @@ description: 简单乐观爱创造
 ---
 
 {% include header.html %}
+<style>
+    .article-list .article-item {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 30px 20px;
+        background-color: #fff;
+        border-bottom: 2px solid #ccb7b74f;
+        border-radius: 3px;
+        box-sizing: border-box;
+        box-shadow: none;
+    }
+</style>
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
     <h2>{{ page.home-title }}</h2>
@@ -18,7 +30,7 @@ description: 简单乐观爱创造
 <main class="g-container home-content">
     <div class="article-list">
         {% for post in paginator.posts %}
-            <article class="article-item" style="border-bottom: 2px solid #ccb7b74f !important;box-shadow: none !important;">
+            <article class="article-item">
                 {% if post.cover %}
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
