@@ -4,7 +4,7 @@ title: 'springboot整合shiro-登录认证和权限管理'
 date: 2019-2-20
 author: 白皓
 cover: ''
-tags: springboot
+tags: Spring框架
 category: springboot
 ---
   
