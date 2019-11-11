@@ -8,17 +8,18 @@ layout: default
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>TAGS</h2>
 </div>
-{% for tag in site.tags %}
+
+<!--{% for tag in site.tags %}
 <div class="one-tag-list">
 		<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
         <span class="tag-text">{{ tag[0] }}</span>
     </span>
     {% for post in tag[1] %}
 
-    <!-- <li class="listing-item">
+    &lt;!&ndash; <li class="listing-item">
         <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
         <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> -->
+    </li> &ndash;&gt;
 
     <div class="post-preview">
         <a href="{{ post.url | prepend: site.baseurl }}">
@@ -31,12 +32,35 @@ layout: default
             </h3>
             {% endif %}
         </a>
-        <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+        &lt;!&ndash; <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> &ndash;&gt;
     </div>
     <hr>
     {% endfor %}
 </div>
-{% endfor %}
+{% endfor %}-->
+
+<main class="tags-content">
+
+    <ul class="tags-list">
+        <li>
+            {% if site.recommend-tags and site.tags.size>0 %}
+            {% for tag in site.tags %}
+            <a href="#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
+            {% endfor %}
+            {% endif %}
+        </li>
+        {% for tag in site.tags %}
+        <li>
+            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
+            {% for post in tag[1] %}
+            <a class="tag-post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            {% endfor %}
+        </li>
+
+        </div>
+        {% endfor%}
+    </ul>
+</main>
 <!--<main class="tags-content">
 
     <ul class="tags-list">
