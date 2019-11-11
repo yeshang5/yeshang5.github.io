@@ -4,7 +4,7 @@ title: 'Nginx开启Gzip压缩大幅提高页面加载速度'
 date: 2018-12-12
 author: 白皓
 cover: ''
-tags: nginx 页面加载
+tags: nginx
 ---
 
 

@@ -4,7 +4,7 @@ title: '程序员git commit时emoji指南'
 date: 2019-2-20
 author: 白皓
 cover: ''
-tags: markdown  emoji
+tags: Git
 category: markdown
 ---
   

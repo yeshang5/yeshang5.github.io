@@ -4,7 +4,7 @@ title: 'Docker部署Mysql并实现数据持久化'
 date: 2019-11-07
 author: 白皓
 cover: ''
-tags: Docker mysql  数据持久化
+tags: Docker
 ---
 ###  一、下载
 
