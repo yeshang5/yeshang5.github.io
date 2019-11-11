@@ -36,12 +36,13 @@ description: 简单乐观爱创造
     <div class="article-list">
         {% for post in paginator.posts %}
             <article class="article-item">
-                {% if post.cover %}
+                <!--{% if post.cover %}
+                文章封面图
                 <div class="post-cover">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
                     <img src="{{ post.cover }}" href="{{ post.url | prepend: site.baseurl }}" alt="">
                 </div>
-                {% endif %}
+                {% endif %}-->
                 <section class="post-preview">
                     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
                     <h2 class="post-title">{{ post.title }}</h2>
