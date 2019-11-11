@@ -5,39 +5,25 @@ layout: default
 
 {% include header.html %}
 
+<style>
+    .tag-name{
+        color: #8caff5 !important;
+        text-align: left !important;
+    }
+
+    .tag-post{
+        text-align: left !important;
+        padding-left: 50px !important;
+        color:darkgray!important;
+    }
+
+    .tag-post:hover{
+        color:#8caff5;
+    }
+</style>
 <div class="g-banner tags-banner {{ site.postPatterns | prepend: 'post-pattern-' }} {{ site.theme-color | prepend: 'bgcolor-' }}" data-theme="{{ site.theme-color }}">
     <h2>TAGS</h2>
 </div>
-
-<!--{% for tag in site.tags %}
-<div class="one-tag-list">
-		<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-        <span class="tag-text">{{ tag[0] }}</span>
-    </span>
-    {% for post in tag[1] %}
-
-    &lt;!&ndash; <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    </li> &ndash;&gt;
-
-    <div class="post-preview">
-        <a href="{{ post.url | prepend: site.baseurl }}">
-            <h2 class="post-title">
-                {{ post.title }}
-            </h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">
-                {{ post.subtitle }}
-            </h3>
-            {% endif %}
-        </a>
-        &lt;!&ndash; <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> &ndash;&gt;
-    </div>
-    <hr>
-    {% endfor %}
-</div>
-{% endfor %}-->
 
 <main class="tags-content">
 
@@ -59,27 +45,5 @@ layout: default
         {% endfor%}
     </ul>
 </main>
-<!--<main class="tags-content">
-
-    <ul class="tags-list">
-        <li>
-        {% if site.recommend-tags and site.tags.size>0 %}
-            {% for tag in site.tags %}
-            <a href="#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
-            {% endfor %}
-        {% endif %}
-        </li>
-        {% for tag in site.tags %}
-        <li>
-            <span class="tag-name" id="{{ tag[0] }}">「{{ tag[0] }}」</span>
-            {% for post in tag[1] %}
-            <a class="tag-post" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-            {% endfor %}
-        </li>
-        
-        </div>
-        {% endfor%}
-    </ul>
-</main>-->
     
 {% include footer.html %}
