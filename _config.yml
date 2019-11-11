@@ -11,6 +11,7 @@ baseurl: ''
 nav:
   home: '/'
   catalog: 'https://baihao520.com/2016/05/20/catalog'
+  resume: 'https://baihao520.com/2018/09/17/简历'
   date: '/date.html'
   tags: '/tags.html'
 
