@@ -9,8 +9,9 @@ baseurl: ''
 
 # Navigation links
 nav:
-  catalog: 'https://baihao520.com/2016/05/20/catalog'
   home: '/'
+  catalog: 'https://baihao520.com/2016/05/20/catalog'
+  date: '/date.html'
   tags: '/tags.html'
 
 # Footer
