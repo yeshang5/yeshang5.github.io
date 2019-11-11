@@ -5,7 +5,6 @@ date: 2019-2-20
 author: 白皓
 cover: ''
 tags: Spring框架
-category: springboot
 ---
   
 这篇文章我们来学习如何使用Spring Boot集成Apache Shiro。互联网的安全性尤为重要。在Java领域一般有Spring Security、Apache Shiro等安全框架，但是由于Spring Security过于庞大和复杂，大多数公司会选择Apache Shiro来使用，这篇文章会先介绍一下Apache Shiro，在结合Spring Boot给出使用案例。
