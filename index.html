@@ -16,6 +16,11 @@ description: 简单乐观爱创造
         box-sizing: border-box;
         box-shadow: none;
     }
+
+    .post-excerpt{
+        font-size: 14px;
+        color: darkgray;
+    }
 </style>
 
 <div class="g-banner home-banner {{ site.theme-color | prepend: 'banner-theme-' }}" data-theme="{{ site.theme-color }}">
@@ -44,7 +49,8 @@ description: 简单乐观爱创造
                     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
                     {% endif %}
                     {% if post.subtitle.size==0 or post.subtitle==nil %}
-                    <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 200}}</p>
+                    <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 200}}</p>
+                    <!--<p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 200}}</p>-->
                     {% endif %}
                 </section>
                 <footer class="post-meta">
@@ -55,7 +61,11 @@ description: 简单乐观爱创造
                             {% endfor %}
                         {% endif %}
                     </div>
-                    <time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+                    <!--<time class="post-date" datetime="{{ post.date | date:"%y-%m-%d" }}">{{ post.date | date_to_string }}</time>-->
+                    <time class="post-date" >Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }</time>
+                    <!--<p class="post-meta">
+                        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+                    </p>-->
                 </footer>
             </article>
         {% endfor %}
