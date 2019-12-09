@@ -3,7 +3,7 @@
 
 记录平时学习的点滴。
 
-博客地址：https://baihao520.com
+博客地址：<https://baihao520.com>
 
 <div>
 <table>
@@ -65,21 +65,22 @@
 
 ## <a id="算法-pencil2" class="anchor"  aria-hidden="true" href="#算法-pencil2"></a> 📰 算法
 
-##### 一、 **[剑指 Offer ](http://wjwcloud.com/2016/06/06/剑指offer/)**
+##### 一、 **[剑指 Offer ](https://baihao520.com/2016/05/20/剑指offer-目录)**
 
-##### 二、 **[算法](http://wjwcloud.com/2016/06/06/算法/)**
+##### 二、 **[算法](https://baihao520.com/2016/05/20/算法-目录)**
 
-- [快速排序算法](http://wjwcloud.com/2018/03/30/fast_sorting/)
+- [快速排序](https://baihao520.com/2017/03/05/快速排序)
 
-- [二叉树遍历](http://wjwcloud.com/2018/03/30/erca_tree/)
+- [简单排序](https://baihao520.com/2017/03/05/简单排序)
 
-- [时间复杂度和空间复杂度](http://wjwcloud.com/2018/03/30/complexity/)
+- [二叉树的遍历](https://baihao520.com/2017/03/13/二叉树的遍历)
 
-- [简单排序](http://wjwcloud.com/2018/03/30/Simple_sorting/)
+- [时间复杂度和空间复杂度](https://baihao520.com/2017/03/08/常用排序算法的时间复杂度和空间复杂度)
+
+
 
 **应用**
-- [递归应用](http://wjwcloud.com/2018/03/30/Recursive/)
-- [树形数据--递归的实际应用](wjwcloud.com/算法/2018/12/08/recursive/)
+- [递归应用](http://baihao520.com/2017/03/13/递归应用)
 
 ---
 
@@ -93,9 +94,9 @@
 
 ## <a id="网络-cloud" class="anchor" aria-hidden="true" href="#网络-cloud"></a> 📒 网络
 
-##### 一、 **[Scoket](http://wjwcloud.com/2016/06/06/Socket/)**
+##### 一、 **[Scoket](http://baihao520.com/2016/05/20/socket-目录)**
 
-- [Java Socket](http://wjwcloud.com/2018/07/21/Java_Socket/)
+- [Java Socket](https://baihao520.com/2018/06/02/Java_Socket)
 
 
 ---
@@ -104,24 +105,24 @@
 
 ## <a id="面向对象-couple" class="anchor" aria-hidden="true" href="#面向对象-couple"></a> 📔 面向对象
 
-##### 一、 **[设计模式](http://wjwcloud.com/2016/06/06/Java_Design/)**
+##### 一、 **[设计模式](https://baihao520.com/2016/05/20/设计模式-目录)**
 
 > 23种设计模式
 
   
-  - [设计模式](http://wjwcloud.com/2018/03/30/Design_pattern/)
+  - [Java常用设计模式](https://baihao520.com/2018/06/15/Java常用设计模式)
  
  **创建型**
 
 
  **行为型**
  
- - [策略模式与避免臃肿的if-else](http://wjwcloud.com/2018/08/27/Strategy/)
+ - [策略模式与避免臃肿的if-else](https://baihao520.com/2019/10/02/策略模式与避免臃肿的if-else)
  
  
  **结构型**
 
-##### 二、 **[面向对象思想](http://wjwcloud.com/2016/06/06/面向对象思想/)**
+##### 二、 **[面向对象思想](http://baihao520.com/2016/05/20/面向对象思想-目录)**
 
 > 继承、封装、多态
 
@@ -131,9 +132,7 @@
 
 ## <a id="数据库-floppy_disk" class="anchor" aria-hidden="true" href="#数据库-floppy_disk"></a>📕 数据库
 
-##### 一、 **[Mybatis](http://wjwcloud.com/2016/06/06/Mybatis/)**
 
- - [Mybatis批量更新操作](http://wjwcloud.com/2018/07/13/Mybatis_update_batch/)
  
 
 ---
@@ -173,7 +172,7 @@
 
 - [List的浅拷贝与深拷贝](http://wjwcloud.com/java/2018/10/08/list_clone/)
 
-##### 三、 **[Java并发](http://wjwcloud.com/2016/06/06/Java并发/)**
+##### 三、 **[Java并发](https://baihao520.com/2016/05/20/Java并发-目录)**
 
 > 线程使用方式、两种互斥同步方法、线程协作、JUC、线程安全、内存模型、锁优化。
 
@@ -182,16 +181,15 @@
 - [Java多线程](http://wjwcloud.com/2018/02/03/java_Thread/)
 - [线程优先级](http://wjwcloud.com/2018/07/22/Thread_Priority/)
 
-##### 四、 **[Java虚拟机](http://wjwcloud.com/2016/06/06/Java虚拟机/)**
+##### 四、 **[Java虚拟机](https://baihao520.com/2016/05/20/Java虚拟机-目录)**
 
 
-##### 五、 **[Java I/O](http://wjwcloud.com/2016/06/06/Java_IO/)**
+##### 五、 **[Java I/O](https://baihao520.com/2016/05/20/Java_IO-目录)**
 
 > NIO 的原理以及实例。
 
 - [File类](https://wjwcloud.com/java/2019/03/13/File/)
 
-##### 六、**[wtool工具](http://wjwcloud.com/java/2019/07/30/wtool/)**
 
 ---
 
@@ -205,15 +203,17 @@
 
 ## <a id="工具-hammer" class="anchor" aria-hidden="true" href="#工具-hammer"></a>📙 工具
 
-##### 一、 **[Git](http://wjwcloud.com/2016/06/06/Git/)**
+##### 一、 **[Git](http://baihao520.com/2016/05/20/Git-目录)**
 
+- [Git基本操作的学习](http://baihao520.com/2018/03/01/Git基本操作的学习)
 - [git仓库删除所有提交历史记录，成为一个干净的新仓库(转)](http://wjwcloud.com/2017/12/14/git_del-history/)
 - [git配置（Windows+Linux）](http://wjwcloud.com/2017/09/10/git_config-windows-linux/)
 - [使用 .gitignore 忽略 Git 仓库中的文件(转)](http://wjwcloud.com/2017/02/22/git_.gitignore/)
 - [Git 代码回滚(转)](http://wjwcloud.com/2017/02/16/git_reset/)
 - [Git指令整理(转)](http://wjwcloud.com/2017/02/15/git_code/)
  
-##### 二、Docker
+##### 二、**[Docker](http://baihao520.com/2016/05/20/Docker-目录)**
+- [Docker部署Mysql并实现数据持久化](http://baihao520.com/2019/11/07/Docker部署Mysql并实现数据持久化)
 - [Docker环境的安装以及常用命令 centos7](http://wjwcloud.com/docker/2019/06/12/Docker%E7%8E%AF%E5%A2%83%E7%9A%84%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-centos7/)
 - [Docker私有仓库Registry](http://wjwcloud.com/docker/2019/06/12/Docker%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93Registry/)
 - [Docker-+jenkins+GitLab](http://wjwcloud.com/docker/2019/06/13/Docker-+jenkins+GitLab/)
@@ -342,11 +342,8 @@
 
 ## <a id="essay" class="anchor" aria-hidden="true" href="#essay"></a> 📋 杂文
 
-- [大城市--积郁之城](http://wjwcloud.com/essay/2019/02/13/essay_dream/)
+- [大城市--积郁之城](http://baihao520.com/2019/12/09/%E6%9D%82%E6%96%87-%E5%A4%A7%E5%9F%8E%E5%B8%82-%E7%A7%AF%E9%83%81%E4%B9%8B%E5%9F%8E)
 
 ---
 
-# 微信公众号：
-
-![](https://raw.githubusercontent.com/wjw0315/wjw0315.github.io/master/img/gzh.jpg)
 
