@@ -3,7 +3,7 @@ layout: post
 title: 'Docker部署Mysql并实现数据持久化'
 date: 2019-11-07
 author: 白皓
-cover: ''
+cover: '/assets/img/little-boy.jpg'
 tags: Docker
 ---
 ###  一、下载
