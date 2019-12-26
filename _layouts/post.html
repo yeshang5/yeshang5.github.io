@@ -25,7 +25,7 @@
       <div class="post-meta">
         <span class="post-meta-item"><i class="iconfont icon-author"></i><a href="{{ site.url }}" target="_blank" rel="author">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a></></span>
         <time class="post-meta-item" datetime="{{ page.date | date:"%y-%m-%d" }}"><i class="iconfont icon-date"></i>{{ page.date | date_to_string }}</time>
-        <span id="busuanzi_container_page_pv"><i class="fa fa-eye"></i><span id="busuanzi_container_page_pv">
+        <span id="busuanzi_container_page_pv"><i class="fa fa-eye"></i><span id="busuanzi_value_page_pv"></span></span>
       </div>
     </div>
     {% if page.cover %}
