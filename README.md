@@ -117,7 +117,7 @@
 
  **行为型**
  
- - [策略模式与避免臃肿的if-else](https://baihao520.com/2019/10/02/策略模式与避免臃肿的if-else)
+ - [策略模式与避免臃肿的if-else](https://baihao520.com/2019/06/05/策略模式与避免臃肿的if-else)
  
  
  **结构型**
@@ -146,10 +146,11 @@
 
 > 一些基础知识以及常用的内容
 
-- [Java基础知识点](http://wjwcloud.com/2018/07/16/Java_base/)
-- [深入浅析Java中Static Class及静态内部类和非静态内部类的不同](http://wjwcloud.com/2018/03/30/Static_class/)
-- [Java程序的执行顺序](http://wjwcloud.com/2018/03/30/Java_procedure_order/)
-- [深入解析Java反射-基础篇](http://wjwcloud.com/2018/10/16/Java_Reflection-1/)
+- [Java基础知识点](http://baihao520.com/2017/04/02/java基础知识)
+- [深入浅析Java中Static Class及静态内部类和非静态内部类的不同](http://baihao520.com/2018/08/12/深入解析java中静态内部类和非静态内部类)
+- [Java程序的执行顺序](http://baihao520.com/2018/08/16/java程序的执行顺序)
+- [深入解析Java反射-基础篇](http://baihao520.com/2018/08/16/深入理解java反射)
+- [java动态代理实现与原理详细分析](http://baihao520.com/2018/10/29/java动态代理实现与原理详细分析)
 
 **常用内容**
 
@@ -197,6 +198,39 @@
 
 ## <a id="分布式-sweat_drops" class="anchor" aria-hidden="true" href="#分布式-sweat_drops"></a> 📘 分布式
 
+### 一、 Spring Cloud 
+
+#### 1、 Spring Cloud (Hoxton版本)
+
+- [SpringCloud-使用Eureka实现服务注册与发现](http://baihao520.com/2019/11/14/Eureka服务注册与发现)
+- [SpringCloud-创建Eureka服务提供者](http://baihao520.com/2019/11/14/Eureka服务提供者)
+- [SpringCloud-创建服务消费者(Ribbon)](http://baihao520.com/2019/11/14/服务消费者(Ribbon))
+- [SpringCloud-创建服务消费者(Feign)](http://baihao520.com/2019/11/14/服务消费者(Feign))
+- [SpringCloud-使用Hystrix熔断器防止服务雪崩](http://baihao520.com/2019/11/15/使用Hystrix熔断器防止服务雪崩)
+- [SpringCloud-使用Hystrix Dashboard熔断器仪表盘监控](http://baihao520.com/2019/11/15/使用Hystrix_Dashboard熔断器仪表盘监控)
+- [SpringCloud-使用Zuul路由网关统一访问接口](http://baihao520.com/2019/11/16/使用Zuul路由网关统一访问接口)
+- [SpringCloud-使用Zuul路由网关服务过滤功能](http://baihao520.com/2019/11/16/使用Zuul路由网关服务过滤功能)
+
+#### 2、Spring Cloud服务配置
+
+- [SpringCloud Config分布式配置中心](http://baihao520.com/2019/11/16/SpringCloud-Config分布式配置中心)
+
+#### 3、Spring Cloud服务追踪
+
+- [SpringCloud-使用Zipkin实现服务链路追踪](http://baihao520.com/2019/11/17/使用zipkin实现服务链路追踪)
+- [SpringCloud-SpringBoot Admin实现服务监控](http://baihao520.com/2019/11/17/SpringBoot-Admin实现服务监控)
+
+
+### 二、 Spring Cloud Alibaba
+
+- [Nacos服务注册与发现](http://wjwcloud.com/springcloud/2019/04/29/Nacos%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0/)
+- [Nacos Config(配置中心)](http://wjwcloud.com/springcloud/2019/04/29/Nacos-Config(%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83)/)
+- [Alibaba-Cloud--Sentinel(限流)](http://wjwcloud.com/springcloud/2019/04/29/Alibaba-Cloud-Sentinel(%E9%99%90%E6%B5%81)/)
+- [Alibaba-Cloud--使用nacos存储Sentinel规则](http://wjwcloud.com/springcloud/2019/04/29/Alibaba-Cloud-使用nacos存储Sentinel规则/)
+
+
+### 三、Zookeeper+Doubbo
+
 ---
 
 ---
@@ -213,7 +247,7 @@
 - [Git指令整理(转)](http://wjwcloud.com/2017/02/15/git_code/)
  
 ##### 二、**[Docker](http://baihao520.com/2016/05/20/Docker-目录)**
-- [Docker部署Mysql并实现数据持久化](http://baihao520.com/2019/11/07/Docker部署Mysql并实现数据持久化)
+- [Docker部署Mysql并实现数据持久化](http://baihao520.com/2019/06/06/Docker部署Mysql并实现数据持久化)
 - [Docker环境的安装以及常用命令 centos7](http://wjwcloud.com/docker/2019/06/12/Docker%E7%8E%AF%E5%A2%83%E7%9A%84%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-centos7/)
 - [Docker私有仓库Registry](http://wjwcloud.com/docker/2019/06/12/Docker%E7%A7%81%E6%9C%89%E4%BB%93%E5%BA%93Registry/)
 - [Docker-+jenkins+GitLab](http://wjwcloud.com/docker/2019/06/13/Docker-+jenkins+GitLab/)
@@ -234,11 +268,13 @@
 
 ##### 一、Spring
 
+- [Spring多数据源](http://baihao520.com/2019/05/21/Spring配置多数据源实现数据库读写分离)
 - [Spring事务](https://wjwcloud.com/spring/2018/12/20/Spring-Transaction/)
 - [spring集成mina](http://wjwcloud.com/2018/04/08/spring_mina/)
 
 
 ##### 二、 SpringBoot
+- [PageHelper插件实现分页](http://baihao520.com/2020/03/07/使用PageHelper插件实现分页)
 
 **快速入门**
 
@@ -283,28 +319,6 @@
 
 **SpringBoot使用Dubbo**
 
-
-##### 三、 SpringCloud
-**1、Dalston版本**
-
-**教程**
-- [Dalston-服务注册与发现+服务提供-Eureka-1](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务注册与发现+服务提供-Eureka-1/)
-- [Dalston-服务消费-2](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务消费-2/)
-- [Dalston-负载均衡工具包-Ribbon-3](http://wjwcloud.com/springcloud/2019/03/21/Dalston-负载均衡工具包-Ribbon-3/)
-- [Dalston-服务消费工具-Feign-4](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务消费工具-Feign-4/)
-- [Dalston-服务消费工具-Feign-上传文件-5](http://wjwcloud.com/springcloud/2019/03/21/Dalston-服务消费工具-Feign-上传文件-5/)
-- [Dalston-分布式配置中心-(Config)-6](http://wjwcloud.com/springcloud/2019/03/21/Dalston-分布式配置中心-(Config)-6/)
-- [Dalston--Hystricx断路器（Ribbon、Fegin）-7](http://wjwcloud.com/springcloud/2019/03/22/Dalston-Hystricx%E6%96%AD%E8%B7%AF%E5%99%A8-Ribbon-Fegin-7/)
-
-**2、Alibaba-Cloud**
-
-**教程**
-
-- [Nacos服务注册与发现](http://wjwcloud.com/springcloud/2019/04/29/Nacos%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%8E%E5%8F%91%E7%8E%B0/)
-- [Nacos Config(配置中心)](http://wjwcloud.com/springcloud/2019/04/29/Nacos-Config(%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83)/)
-- [Alibaba-Cloud--Sentinel(限流)](http://wjwcloud.com/springcloud/2019/04/29/Alibaba-Cloud-Sentinel(%E9%99%90%E6%B5%81)/)
-- [Alibaba-Cloud--使用nacos存储Sentinel规则](http://wjwcloud.com/springcloud/2019/04/29/Alibaba-Cloud-使用nacos存储Sentinel规则/)
-
 ---
 ---
 ## <a id="支付" class="anchor" aria-hidden="true" href="#支付"></a> 📙 支付
@@ -342,7 +356,7 @@
 
 ## <a id="essay" class="anchor" aria-hidden="true" href="#essay"></a> 📋 杂文
 
-- [大城市--积郁之城](http://baihao520.com/2019/12/09/%E6%9D%82%E6%96%87-%E5%A4%A7%E5%9F%8E%E5%B8%82-%E7%A7%AF%E9%83%81%E4%B9%8B%E5%9F%8E)
+- [大城市--积郁之城](http://baihao520.com/2019/06/13/大城市-积郁之城)
 
 ---
 
